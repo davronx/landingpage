@@ -1,0 +1,41 @@
+#header-top {
+    display:flex;
+    justify-content: space-between;
+}
+
+#header-top a {
+    padding: 0 6px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-bottom {
+    display: flex;
+}
+
+#header-left {
+    width: 50%;
+}
+
+#header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 50%;
+}
+
+.body{
+    background-color: teal;
+    color: white;
+    padding: 0 100px;
+}
+.body:nth-child(even){
+    background-color: initial;
+    color: initial;
+}
+
+#footer {
+    text-align: center;
+    padding: 32px;
+}
