@@ -1,4 +1,5 @@
 body {
+    font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,7 +9,7 @@ body > * {
 }
 
 body > *:first-child, body > *:last-child {
-    background-color: teal;
+    background-color: #1f2937;
     color: white;
 }
 body:nth-child(even){
@@ -19,12 +20,13 @@ body:nth-child(even){
 #header-top {
     display:flex;
     justify-content: space-between;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 #header-top a {
     padding: 0 6px;
     text-decoration: none;
-    color: inherit;
 }
 
 #header-bottom {
@@ -35,15 +37,104 @@ body:nth-child(even){
     flex: 1;
 }
 
+#header-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+#header-left p, #header-top a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#awesome-button {
+    background-color: #3883f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 16px;
+    cursor: pointer;
+}
 
 #header-right {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: grey;
+    color: #e5e7eb;
 }
 
+main h3 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
 
+#card-container {
+    justify-content: center;
+display: flex;
+}
+
+.cards {
+    justify-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.boxes {
+border: 2px solid #3883f6;
+border-radius: 6px;
+height: 100px;
+width: 100px;
+margin: 10px;
+}
+
+#quote-box {
+    background-color: #e5e7eb;
+    width: 100vw;
+    margin-top: 30px;
+    margin-left: -100px;
+    padding: 20px 0;
+}
+
+#quote p {
+    padding: 0 100px;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+#quote h5 {
+    padding: 0 100px;
+    text-align: end;
+}
+
+#cto-box {
+    background-color: #3883f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#cto {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#cto-button {
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    background-color: #3883f6;
+    color: #e5e7eb;
+    padding: 6px 16px;
+    height: fit-content;
+    margin: auto 0;
+    cursor: pointer;
+}
 
 #footer {
     text-align: center;
